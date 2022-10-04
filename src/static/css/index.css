@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;400&family=Raleway:ital,wght@1,900&family=Red+Hat+Display:ital,wght@1,500&display=swap');
+
+html {
+    font-family: 'Quicksand', 'Montserrat', Verdana, Geneva, Tahoma, sans-serif, cursive;
+
+    color: black;
+}
+
+body {
+    background-color: rgb(234, 150, 40);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1%;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.container-fluid {
+
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.formulario {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(6px) saturate(138%);
+    -webkit-backdrop-filter: blur(6px) saturate(138%);
+    background-color: rgba(255, 255, 255, 0.36);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgb(234, 150, 40);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1%;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.form {
+    padding: 2px;
+    margin: 50px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(6px) saturate(138%);
+    -webkit-backdrop-filter: blur(6px) saturate(138%);
+    background-color: rgba(255, 255, 255, 0.36);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+@media (min-width: 992px) {
+    .form {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        backdrop-filter: blur(6px) saturate(138%);
+        -webkit-backdrop-filter: blur(6px) saturate(138%);
+        /* background-color: rgba(63, 94, 197, 0.36); */
+        border-radius: 12px;
+        /* border: 1px solid rgba(209, 213, 219, 0.3); */
+    }
+}
+
+@media (min-width: 1200px) {
+    .form {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+        backdrop-filter: blur(6px) saturate(138%);
+        -webkit-backdrop-filter: blur(6px) saturate(138%);
+        /* background-color: rgba(219, 89, 89, 0.879); */
+        border-radius: 50px;
+        /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    }
+}
+
+.cancelar {
+    width: min-content;
+    padding: 12px;
+    border: none;
+    border-radius: 4px 8px 12px 16px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: rgb(184, 84, 84);
+    text-align: center;
+    color: black;
+}
+
+.enviar {
+    width: min-content;
+    padding: 12px;
+    border: none;
+    border-radius: 4px 8px 12px 46px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: rgb(84, 184, 117);
+}
